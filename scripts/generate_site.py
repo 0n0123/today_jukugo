@@ -92,7 +92,10 @@ def render_page(entry, target_date):
 
     <footer class="site-footer">
         <p>定義・用例の出典: <a href="https://bond-lab.github.io/wnja/jpn/index.html">日本語 WordNet</a></p>
-        <p class="footer-note">Japanese WordNet 1.1 を利用しています。</p>
+        <p class="footer-note">
+            Japanese WordNet 1.1 および pykakasi を使用しています。
+            一部の読みに誤りがある場合があります。ご了承ください。
+        </p>
     </footer>
 </body>
 </html>
